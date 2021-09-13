@@ -1,0 +1,199 @@
+ *{ 
+  /* border: 1px dashed red;   */
+}
+
+
+
+
+
+.form{
+    border: 1px;
+    width: 60em;
+    margin: auto; 
+    padding-top: 1px;
+    border: 1px;
+    border: solid #e3e3e3;
+    border-radius: .4em;
+    background-color:#ffffff;
+    overflow:auto;
+ 
+}
+
+
+
+
+
+/* header */
+
+.header{
+    border-color:whitesmoke;
+    background-color: #f7f7f7;
+    padding: 0px;
+    border-bottom-style:solid;
+    border-color: #e3e3e3;
+    border-width: .1em;
+  
+}
+#header{
+    margin: 0px;
+   
+}
+
+h1{
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 0.3em;
+
+
+}
+
+
+
+
+
+/* Missing feilds */
+
+#missing{
+ color:#883b41;
+   padding-left: 20px;
+   font-size: 14px;
+   text-align: center;
+   float: left;
+   
+    
+}
+.missing{
+background-color: #f7d7da;
+    margin: 0.6250em;
+    height: 2.7em;
+    border-radius: .3em;
+}
+
+
+
+
+/* card information */
+
+
+.data1{
+    margin:0px;
+    padding: 0px;
+}
+.inputs1{
+    display: flex;
+     gap: 1.2500em;
+)
+    
+
+
+}
+#cvc{
+    width:100%;
+}
+
+.dollar{
+    display: flex;
+    width: 100%;
+}
+
+#dollar, #amount {
+    display: flex;
+    float: left;
+}
+
+
+
+
+
+/* demographics */
+
+
+
+.data2{
+    display:flex;
+    width: unset;
+}
+
+
+.inputs2{
+    float:left;
+    width: 50%;
+}
+
+
+.inpust3{
+    float:right;
+
+margin: 0px;
+}
+
+
+.inputs5{
+    background-color: 
+    #6b757e;
+    width: 33%;
+    position: absolute;
+}
+
+
+
+
+/* buttons */
+
+.buttons{
+    background-color:#f7f7f7 ;
+    border-top-style: solid;
+text-align: right;
+padding: .5em;
+border-width: .15em;
+border-color: #e3e3e3;
+}
+
+#send{
+    background-color: #017bfe;
+    color: white;
+    border: 0em;
+    height: 2em;
+    width: 3.5em;
+    border-radius:.4em;
+}
+
+#Cancel{
+    background-color: #6b757e;
+    color: white;
+    border: 0em;
+    height: 2em;
+    width: 4.5em;
+    border-radius:.4em;
+}
+
+
+
+
+
+/* Combos */
+
+
+#statepostal{
+    display: flex;
+    width:100%;
+
+}
+
+.inputs3,#statepostal, .data2{
+gap: 1.2500em;
+
+}
+p{
+    font-family: 'Roboto', sans-serif
+}
+
+textarea{
+    width:425px;
+    height: 75px;
+}
+
+
+
+
+
+
