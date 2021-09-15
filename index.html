@@ -13,16 +13,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600&display=swap" rel="stylesheet">
 </head>
+<body>
 
 <form class=form>
 <div class="header">
-        <h1 id=header>Payment form example</h1>
+    <h1 id=header>Payment form example</h1>
 </div>
 
+
+<div class=data>
 <div class=missing>
-    <p id=missing>Some fields are missing</p>
+    <p id=missing><strong> Some fields are missing</strong></p>
 </div>
-
 <section class="data1">
 
 <div class=inputs1>
@@ -30,15 +32,15 @@
           <p>Card #</p>
           <input id=card required placeholder="XXXXXXXXXXXXXXXX" minlength="16" maxlength="16">
       </div>
-      <div id="Cvc">
+      <div class="cvc">
           <p>CVC #</p>
           <input id=cvc required name="card" placeholder="0000" minlength="4" maxlength="4">
        </div>
       
-       <div id="Amount">
+       <div class="amount">
           <p>Amount</p>
           <div class="dollar"> <i class="fas fa-dollar-sign"></i>
-          <input id=amount required placeholder="Amount" min=0 max=99.99 step=0.01>
+          <input id=amount required placeholder="Amount" >
         </div>
       </div>
 </div>
@@ -50,22 +52,22 @@
 <div class=inputs2>
         <div id="firstname">
             <p>First Name</p>
-            <input required name="Firstname">
+            <input id="Firstname" required name="Firstname">
         </div>
         <div class=city>
             <p>City</p>
-            <input required name="City">
+            <input id=City required name="City">
         </div>
          <div id="weaccept">
             <p>We accept:</p>
-        <div class="inputs5">
-            <input type="radio">
+        <div class="inputs4">
+            <input type="radio" name="radAnswer">
             <i class="fab fa-cc-mastercard"></i>
-            <input type="radio">
+            <input type="radio" name="radAnswer">
             <i class="fab fa-cc-visa"></i>
-            <input type="radio">
+            <input type="radio" name="radAnswer">
             <i class="fab fa-cc-discover"></i>
-            <input type="radio">
+            <input type="radio" name="radAnswer">
             <i class="fab fa-cc-amex"></i>
         </div>
 
@@ -73,18 +75,18 @@
 </div>
 
 <div class="inputs3">
-    <div>
-    <div id="lastname">
+
+    <div class="lastname">
         <p>Last Name</p>
-        <input required name="Lastname">
+        <input id=Lastname required name="Lastname">
      </div>
 
 
      <div id="statepostal">
      <div class=state>
         <p>State</p>
-        <select required name="state">
-        <option hidden value="Blank">Pick a State</option>
+        <select class=State required >
+        <option  hidden value="Blank">Pick a State</option>
         <option value="Florida">Florida</option>
         <option value="New York">New York</option>
         <option value="California">California</option>
@@ -94,7 +96,7 @@
 
       <div class=postalcode>
             <p>Postal Code</p>
-            <input required name="Postal Code">
+            <input id=postal required name="Postal Code">
             </div>
         </div>
 
@@ -105,7 +107,7 @@
                 <p id="addnotes">Add any notes here.</p>
                         </div>
 
-
+                    </div>
 
 
 </div>
@@ -123,5 +125,5 @@
 
 </form>
 
-
+</body>
 </html>
