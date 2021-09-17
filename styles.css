@@ -30,7 +30,8 @@ margin-top: 60px;
 }
 
 input{
-    height: 25px;
+   
+    padding: 5px; ;
 }
 
 p{
@@ -171,6 +172,7 @@ width: 100%;
     position: relative;
     justify-content: space-evenly;
     width: 225px;
+    padding: 5px;
 }
 
 .fa-cc-mastercard, .fa-cc-visa, .fa-cc-discover, .fa-cc-amex {
@@ -186,19 +188,19 @@ width: 100%;
     float:right;
 margin: 0px;
 padding: 0px;
-width:50%
+
 }
 
-.lastname{
-    width: 529.5px;
-}
 
 #Lastname{
-    width: 100%;
+    width: 535px ;
 }
-.State{
-height: 30px;
+
+select {
+padding: 5px;
+border-radius: .03em;
 }
+
 
 #statepostal{
     justify-content: space-between;
@@ -209,14 +211,19 @@ height: 30px;
     width:90%;
 }
 
-.state,#postal{
-    width:97%;
+.state{
+    width:100%;
     
 }
 #statepostal{
     display: flex;
     width:100%;
 
+}
+
+#postal{
+    margin: 0px;
+    width: 250px;
 }
 
 
@@ -226,7 +233,7 @@ height: 30px;
 /* messages */
 
 textarea{
-    width: 532px;
+    width: 542px;
     height: 75px;
 }
 
